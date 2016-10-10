@@ -1,0 +1,11 @@
+import re
+email_m1 = raw_input("Enter email id for method 1:")
+'''
+retreives email that starts with string priya
+'''
+match_1 = re.match('^priya[.*A-Za-z0-9]+@[A-Za-z0-9]+(\.[A-Za-z0-9]+)$',email_m1)
+if match_1 == None:
+ print("Invalid email")
+else:
+ print("valid email")
+ 
