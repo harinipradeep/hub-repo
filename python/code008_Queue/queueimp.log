@@ -1,0 +1,67 @@
+Script started on Sun 06 Nov 2016 02:56:25 PM IST
+Enter the size of the queue
+3
+Enter your choice
+1.Enqueue
+2.Dequeue
+3.Exit
+1
+Enter value to enqueue
+4
+Enter value to enqueue
+2
+Enter value to enqueue
+6
+Queue is full
+Data in queue:
+
+['4', '2', '6']
+Enter your choice
+1.Enqueue
+2.Dequeue
+3.Exit
+1
+Queue is full
+Data in queue:
+
+['4', '2', '6']
+Enter your choice
+1.Enqueue
+2.Dequeue
+3.Exit
+2
+Data in queue:
+
+['2', '6']
+Enter your choice
+1.Enqueue
+2.Dequeue
+3.Exit
+2
+Data in queue:
+
+['6']
+Enter your choice
+1.Enqueue
+2.Dequeue
+3.Exit
+2
+Data in queue:
+
+[]
+Enter your choice
+1.Enqueue
+2.Dequeue
+3.Exit
+2
+Queue is empty
+Data in queue:
+
+None
+Enter your choice
+1.Enqueue
+2.Dequeue
+3.Exit
+3
+
+Script done on Sun 06 Nov 2016 02:57:03 PM IST
