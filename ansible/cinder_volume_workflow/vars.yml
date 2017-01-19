@@ -1,0 +1,11 @@
+---
+username: blue
+projectname: blue
+password: blue
+role: all_volume_operations
+volume_action: create,list,delete
+volume_type: gold
+volume_size: 1
+volume_create_and_attach: True
+volume_to_attach: harinivol1
+volume_to_delete: harinivol1

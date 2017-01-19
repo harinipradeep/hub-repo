@@ -1,0 +1,35 @@
+
+
+PLAY [controller] **************************************************************
+
+TASK [setup] *******************************************************************
+ok: [controller]
+
+TASK [workflow] ****************************************************************
+changed: [controller]
+
+TASK [Print] *******************************************************************
+ok: [controller] => {
+    "cat.stdout_lines": [
+        "User:blue",
+        "Project:blue",
+        "Role:all_volume_operations",
+        "New project created",
+        "Creating Volume:",
+        "Volume created successfully with volume id: ",
+        "321af35b-a55d-4f34-98da-7d9d01a71354",
+        "List Volumes:",
+        "<Volume: 321af35b-a55d-4f34-98da-7d9d01a71354>",
+        "size :  1",
+        "name :  bluebluegold",
+        "status :  creating",
+        "volume_type :  Gold",
+        "",
+        "",
+        "Deleting Volume:",
+        "Volume bluebluegold has been deleted successfully"
+    ]
+}
+
+PLAY RECAP *********************************************************************
+controller                 : ok=3    changed=1    unreachable=0    failed=0
