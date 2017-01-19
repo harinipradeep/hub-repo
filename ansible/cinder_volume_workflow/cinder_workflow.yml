@@ -1,0 +1,9 @@
+---
+- hosts: controller
+  tasks:
+   - name: workflow
+     shell: python sample_workflow_ans.py
+     register: cat
+   - name: Print
+     debug: var=cat.stdout_lines
+
